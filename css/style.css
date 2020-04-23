@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
+.MainContent {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.genreBtn {
+  width: 20%;
+
+  border: 3px solid grey;
+  margin-left: 50px;
+  padding: 30px;
+
+  margin-top: 50px;
+  display: inline-block;
+}
+.header {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.guessingWord {
+  text-align: center;
+  font-size: 45px;
+  margin: 0 auto;
+}
+.user-field {
+  margin: 0 auto;
+  width: 100%;
+}
+.user-field input {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px 10px;
+  background: #a0f097;
+
+  border-style: None;
+}
+input::placeholder {
+  color: black;
+  padding-left: 30px;
+}
+
+#game-lost,
+#game-won {
+  display: block;
+}
+#game-won {
+  color: green;
+}
+#game-lost {
+  color: crimson;
+}
+
+/* .win-redo {
+  color: #a0f097;
+} */
+.fa-redo {
+  border-radius: 50px;
+  padding: 15px;
+}
+#game-status-text {
+  margin-top: 20px;
+}
+.fa-heart {
+  color: crimson;
+}
+.lives {
+  font-size: 25px;
+  margin-top: 14px;
+}

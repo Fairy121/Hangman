@@ -1,0 +1,18 @@
+{
+    "genres" : [
+        {
+            "name" : "Sports",
+            "words" : ["baseball","soccer","cricket", "softball" , "golf" , "polo" , "gymnastics" , "Hockey"]
+        }, 
+        {
+            "name" : "Anime" , 
+            "words" : ["Fairytail" , "Blue Exorcist" , "Your lie in april" , "Anohana" , "Souleater" , "Death Note" , "One Piece" , "Golden Kamuy" , "Beserk", "Durara" ]
+        },
+        {
+            "name" : "Gaming" ,
+            "words" : ["mario", "diablo" , "call of duty" , "runescape" , " world of warcraft" , "overwatch" , "nintendo" , "sega" , "Monster Hunter" , "minecraft" , "Zelda" , "Pokemon" ]
+            
+        }
+
+    ]
+}
